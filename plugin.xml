@@ -7,7 +7,6 @@
   <js-module src='www/comscore.js' name='comscore'>
     <clobbers target='window.comscore'/>
   </js-module>
-  <dependency id="cordova-plugin-cocoapod-support"/>
   
   <platform name='ios'>
     <config-file target='config.xml' parent='/*'>
