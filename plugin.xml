@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin xmlns='http://apache.org/cordova/ns/plugins/1.0' id='com.example.hello' version='0.0.1'>
+  <name>ComScore</name>
+  <description>Adapter ComScore librery for cordova ONLY FOR IOS</description>
+  <license>MIT</license>
+  <keywords>cordova,comscore,analytics</keywords>
+  <js-module src='www/comscore.js' name='comscore'>
+    <clobbers target='window.comscore'/>
+  </js-module>
+  <dependency id="cordova-plugin-cocoapod-support"/>
+  
+  <platform name='ios'>
+    <config-file target='config.xml' parent='/*'>
+      <feature name='Hello'>
+        <param name='ios-package' value='Hello'/>
+      </feature>
+    </config-file>
+    <header-file src="src/ios/RComScore.h" />
+    <source-file src="src/ios/RComScore.m" />
+
+    <pods-config ios-min-version="9.0" uses-frameworks="true"/>
+    <pod id="ComScore" git="https://github.com/comScore/ComScore-iOS-watchOS-tvOS" tag="v5.1.10" />
+  </platform>
+</plugin>
