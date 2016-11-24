@@ -17,8 +17,6 @@
     </config-file>
     <header-file src="src/ios/RComScore.h" />
     <source-file src="src/ios/RComScore.m" />
-
-    <pods-config ios-min-version="9.0" uses-frameworks="true"/>
-    <pod id="ComScore" git="https://github.com/comScore/ComScore-iOS-watchOS-tvOS" />
+    <framework src="libs/ComScore/iOS/ComScore.framework" custom="true" link="true" />
   </platform>
 </plugin>
