@@ -11,9 +11,9 @@
   
   <platform name='ios'>
     <config-file target='config.xml' parent='/*'>
-      <feature name='Hello'>
-        <param name='ios-package' value='Hello'/>
-      </feature>
+       <feature name="comscore">
+        <param name="ios-package" value="comscore" />
+    </feature>
     </config-file>
     <header-file src="src/ios/RComScore.h" />
     <source-file src="src/ios/RComScore.m" />
