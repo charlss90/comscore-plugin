@@ -19,6 +19,6 @@
     <source-file src="src/ios/RComScore.m" />
 
     <pods-config ios-min-version="9.0" uses-frameworks="true"/>
-    <pod id="ComScore" git="https://github.com/comScore/ComScore-iOS-watchOS-tvOS" tag="v5.1.10" />
+    <pod id="ComScore" git="https://github.com/comScore/ComScore-iOS-watchOS-tvOS" />
   </platform>
 </plugin>
