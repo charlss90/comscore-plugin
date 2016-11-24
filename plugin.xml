@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<plugin xmlns='http://apache.org/cordova/ns/plugins/1.0' id='com.example.hello' version='0.0.1'>
+<plugin xmlns='http://apache.org/cordova/ns/plugins/1.0' id='com.kratos.comscore' version='0.0.1'>
   <name>ComScore</name>
   <description>Adapter ComScore librery for cordova ONLY FOR IOS</description>
   <license>MIT</license>
