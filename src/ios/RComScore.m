@@ -2,6 +2,8 @@
 #import <ComScore/ComScore.h>
 #import "RComScore.h"
 
+@implementation RComScore
+
 - (void)start:(CDVInvokedUrlCommand *)command
 {
 

@@ -1,6 +1,6 @@
 #import <Cordova/CDV.h>
 
-@interface ComScorePlugin : CDVPlugin
+@interface RComScore : CDVPlugin
 
 - (void) start:(CDVInvokedUrlCommand*)command;
 
