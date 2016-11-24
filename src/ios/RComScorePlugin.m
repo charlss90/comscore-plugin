@@ -4,7 +4,7 @@
 
 @implementation RComScore
 
-- (void)start:(CDVInvokedUrlCommand *)command
+- (void)initializeComScore:(CDVInvokedUrlCommand *)command
 {
 
     NSString *publisherId = [command.arguments objectAtIndex:0];

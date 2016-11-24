@@ -2,7 +2,7 @@
 
 @interface RComScore : CDVPlugin
 
-- (void) start:(CDVInvokedUrlCommand*)command;
+- (void) initializeComScore:(CDVInvokedUrlCommand*)command;
 
 @end
 
