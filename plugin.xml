@@ -16,6 +16,7 @@
     </config-file>
     <header-file src="src/ios/RComScorePlugin.h" />
     <source-file src="src/ios/RComScorePlugin.m" />
-    <framework src="libs/ComScore/iOS/ComScore.framework" custom="true" link="true" />
+    <header-file src="libs/ComScore/iOS/ComScore.framework/Versions/A/Headers/ComScore.h"/>
+    <header-file src="libs/ComScore/iOS/ComScore.framework/Versions/A/ComScore" framework="true" />
   </platform>
 </plugin>
